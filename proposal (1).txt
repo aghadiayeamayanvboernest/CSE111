@@ -1,0 +1,69 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+   ans. The title of my program is FitTrack: Your Personal Fitness and Calorie Management
+
+2. What real-world problem will your program address or help to solve?
+   ans. my program aims to provide a convenient solution for individuals to track their fitness activities, 
+        monitor caloric intake, and manage weight loss or muscle gain goals, addressing the real-world challenge of effective fitness and health management.
+
+3. What will you learn from developing this program?
+    ans.
+    Developing this program will provide me with valuable experience in:
+
+    1. Designing and implementing user-friendly interfaces for inputting and managing personal health data.
+    2. Understanding and applying algorithms for calculating Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE).
+    3. Implementing data logging and analysis features to track fitness activities and food intake.
+    4. Creating visualization tools to present progress reports and insights.
+    5. Incorporating creative features such as discounts and survey invitations to enhance user engagement.
+    6. Writing test cases and using testing frameworks like pytest to ensure the accuracy and reliability of my code.
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+    ans.  datetime  and pytest 
+
+5. List the names of functions you will need?
+
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+    ans.
+        1. calculate_bmr.
+        2. calculate_tdee
+        3. log_activity
+        4. log_food
+        5. generate_report
+        6. get_user_profile
+        7. update_user_profile
+        8. main
+
+6. List the names of the test functions you will write.
+
+    ans.
+        1. test_calculate_bmr
+        2. test_calculate_tdee
+        3. test_log_activity
+        4. test_log_food
+        5. test_generate_report
+
